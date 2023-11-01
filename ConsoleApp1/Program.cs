@@ -6,14 +6,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.BackgroundColor = ConsoleColor.Black;
-            Console.Clear();
-            Console.WriteLine("What is your name?");
+            bool canIVote = true;
 
-            string name = Console.ReadLine();
-            Console.WriteLine(name);
-            Console.WriteLine($"Hello {name}");
+            Console.WriteLine("Biggest Integer : {0}", int.MaxValue);
+            Console.WriteLine("Smallest Integer : {0}", int.MinValue);
+            Console.WriteLine("Biggest Long : {0}", long.MaxValue);
+            Console.WriteLine("Smallest Long : {0}", long.MinValue);
+
+            decimal decPiValue = 3.1415926535897932384626433832M;
+            decimal decBigNum = 3.00000000000000000000000000000011M;
+            Console.WriteLine("DEC : PI + bigNum = {0}", decPiValue + decBigNum);
         }
     }
 }
