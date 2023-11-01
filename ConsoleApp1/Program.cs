@@ -10,6 +10,9 @@ namespace ConsoleApp1
             Console.BackgroundColor = ConsoleColor.DarkRed;
             Console.Clear();
             Console.WriteLine("Hello World");
+
+            string name = Console.ReadLine();
+            Console.WriteLine(name);
         }
     }
 }
