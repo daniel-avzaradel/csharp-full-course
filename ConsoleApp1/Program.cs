@@ -8,7 +8,6 @@ namespace ConsoleApp1
         {
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.Clear();
 
             bool boolFromString = bool.Parse("true");
             int intFromString = int.Parse("100");
