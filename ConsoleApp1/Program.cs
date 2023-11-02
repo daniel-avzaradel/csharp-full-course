@@ -23,6 +23,11 @@ namespace ConsoleApp1
             Console.WriteLine($"Data type: {doubleFromStr.GetType()}");
             Console.WriteLine($"Data type: {intFromString.GetType()}");
             Console.WriteLine($"Data type: {boolFromString.GetType()}");
+
+            string firstName = Console.ReadLine();
+            string lastName = Console.ReadLine();
+            Console.WriteLine($"My first name is: {0}", firstName);
+            Console.WriteLine($"My last name is: {0}", lastName);
         }
     }
 }
