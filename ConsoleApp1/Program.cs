@@ -6,16 +6,23 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            bool canIVote = true;
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.ForegroundColor = ConsoleColor.White;
 
-            Console.WriteLine("Biggest Integer : {0}", int.MaxValue);
-            Console.WriteLine("Smallest Integer : {0}", int.MinValue);
-            Console.WriteLine("Biggest Long : {0}", long.MaxValue);
-            Console.WriteLine("Smallest Long : {0}", long.MinValue);
+            bool boolFromString = bool.Parse("true");
+            int intFromString = int.Parse("100");
+            double doubleFromStr = double.Parse("1.2345");
+            string strValue = doubleFromStr.ToString();
 
-            decimal decPiValue = 3.1415926535897932384626433832M;
-            decimal decBigNum = 3.00000000000000000000000000000011M;
-            Console.WriteLine("DEC : PI + bigNum = {0}", decPiValue + decBigNum);
+            Console.WriteLine("Converted boolean from string: {0}", boolFromString);
+            Console.WriteLine("Converted int from string: {0}", intFromString);
+            Console.WriteLine(doubleFromStr);
+            Console.WriteLine(strValue);
+
+            Console.WriteLine($"Data type: {strValue.GetType()}");
+            Console.WriteLine($"Data type: {doubleFromStr.GetType()}");
+            Console.WriteLine($"Data type: {intFromString.GetType()}");
+            Console.WriteLine($"Data type: {boolFromString.GetType()}");
         }
     }
 }
