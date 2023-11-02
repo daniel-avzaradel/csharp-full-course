@@ -24,11 +24,15 @@ namespace ConsoleApp1
             Console.WriteLine($"Data type: {intFromString.GetType()}");
             Console.WriteLine($"Data type: {boolFromString.GetType()}");
 
+            Console.WriteLine("What is your first name?");
             string firstName = Console.ReadLine();
+
+            Console.WriteLine("What is your last name?");
             string lastName = Console.ReadLine();
-            Console.WriteLine($"My first name is: {0}", firstName);
-            Console.WriteLine($"My last name is: {0}", lastName);
-            Console.WriteLine($"My full name is: {0} {1}", firstName, lastName);
+
+            Console.WriteLine("My first name is: {0}", firstName);
+            Console.WriteLine("My last name is: {0}", lastName);
+            Console.WriteLine("My full name is: {0} {1}", firstName, lastName);
         }
     }
 }
