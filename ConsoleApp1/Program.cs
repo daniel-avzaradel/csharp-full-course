@@ -28,6 +28,7 @@ namespace ConsoleApp1
             string lastName = Console.ReadLine();
             Console.WriteLine($"My first name is: {0}", firstName);
             Console.WriteLine($"My last name is: {0}", lastName);
+            Console.WriteLine($"My full name is: {0} {1}", firstName, lastName);
         }
     }
 }
