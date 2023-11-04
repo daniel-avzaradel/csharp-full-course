@@ -12,15 +12,20 @@ namespace ConsoleApp1
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.DarkGreen;
 
-            string randomStr = "daniel_avzaradel";
-            Console.WriteLine("String Length: {0}", randomStr.Length);
-            Console.WriteLine("String Contains is: {0}", randomStr.Contains("ani"));
-            Console.WriteLine("Index of 'n' is: {0}", randomStr.IndexOf("n"));
+            // ARRAYS
+            int[] favNumbers = new int[3];
+            favNumbers[0] = 21;
+            favNumbers[1] = 10;
+            favNumbers[2] = 1988;
+            Console.WriteLine(favNumbers);
 
-            Console.WriteLine("Uppercase: {0}", randomStr.ToUpper());
-            Console.WriteLine("Lowercase: {0}", randomStr.ToLower());
-            Console.WriteLine("Pad Left: {0}", randomStr.PadLeft(20, '.'));
-            Console.WriteLine("Pad Right: {0}", randomStr.PadRight(20, '.'));
+            string[] customersNames = { "Bob", "Sally", "Daniel" };
+            var employees = new[] { "Mike", "Paul", "Rick" };
+            object[] randomObject = { "Paul", 45, 12.12345 };
+
+            Console.WriteLine("random array: {0}", randomObject[0].GetType());
+            Console.WriteLine("random array: {0}", randomObject[1].GetType());
+            Console.WriteLine("random array: {0}", randomObject[2].GetType());
         }
     }
 }
