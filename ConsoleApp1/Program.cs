@@ -26,6 +26,12 @@ namespace ConsoleApp1
             Console.WriteLine("random array: {0}", randomObject[0].GetType());
             Console.WriteLine("random array: {0}", randomObject[1].GetType());
             Console.WriteLine("random array: {0}", randomObject[2].GetType());
+            Console.WriteLine("random array length: {0}", randomObject.Length);
+
+            for (int i = 0; i < customersNames.Length; i++)
+            {
+                Console.WriteLine(i + ": " + customersNames[i]);    
+            }
         }
     }
 }
