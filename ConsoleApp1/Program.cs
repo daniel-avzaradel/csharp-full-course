@@ -12,10 +12,10 @@ namespace ConsoleApp1
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.DarkGreen;
 
-            Console.WriteLine("Currency: {0:c}", 23.455);
-            Console.WriteLine("Pad With Zeros Currency: {0:d4}", 23);
-            Console.WriteLine("3 Decimals Currency: {0:f3}", 23.615253);
-            Console.WriteLine("Commas Currency: {0:n4}", 22000);
+            string randomStr = "daniel avzaradel";
+            Console.WriteLine("String Length: {0}", randomStr.Length);
+            Console.WriteLine("String Contains is: {0}", randomStr.Contains("ani"));
+            Console.WriteLine("Index of 'n' is: {0}", randomStr.IndexOf("n"));
         }
     }
 }
