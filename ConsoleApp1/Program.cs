@@ -33,6 +33,13 @@ namespace ConsoleApp1
             Console.WriteLine("My first name is: {0}", firstName);
             Console.WriteLine("My last name is: {0}", lastName);
             Console.WriteLine("My full name is: {0} {1}", firstName, lastName);
+
+            double dblNum = 12.3727;
+            Console.WriteLine($"Integer: {(int)dblNum}");
+
+            int intNum = 10;
+            long longNum = intNum;
+            Console.WriteLine(longNum);
         }
     }
 }
