@@ -5,6 +5,19 @@ namespace ConsoleApp1
 {
     public class Program
     {
+
+        //---------- FUNCTIONS ---------
+
+        static void PrintArray(int[] intArray, string message)
+        {
+            foreach (int i in intArray)
+            {
+                Console.WriteLine("{0}: {1}", i, message);
+            }
+        }
+
+        //---------- END OF FUNCTIONS ---------
+
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.Default;
@@ -30,8 +43,13 @@ namespace ConsoleApp1
 
             for (int i = 0; i < customersNames.Length; i++)
             {
-                Console.WriteLine(i + ": " + customersNames[i]);    
+                Console.WriteLine(i + ": " + customersNames[i]);
             }
+
+            int[] randomArr = { 1, 2, 12, 21, 1988 };
+            PrintArray(randomArr, "forEach");
         }
+
+
     }
 }
