@@ -50,8 +50,15 @@ namespace ConsoleApp1
 
             Console.WriteLine();
 
-            int[] randomArr = { 1, 2, 12, 21, 1988 };
+            int[] randomArr = { 1, 12, 2, 44, 20, 1988 };
             PrintArray(randomArr, "forEach");
+
+            Array.Sort(randomArr);
+            Console.WriteLine();
+            PrintArray(randomArr, "sort");
+            Console.WriteLine();
+            Array.Reverse(randomArr);
+            PrintArray(randomArr, "reverse");
         }
 
 
