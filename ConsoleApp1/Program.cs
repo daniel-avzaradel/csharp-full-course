@@ -26,13 +26,7 @@ namespace ConsoleApp1
             Console.ForegroundColor = ConsoleColor.DarkGreen;
 
             // ARRAYS
-            int[] favNumbers = new int[3];
-            favNumbers[0] = 21;
-            favNumbers[1] = 10;
-            favNumbers[2] = 1988;
-            Console.WriteLine(favNumbers);
-
-      
+   
           
         }
 
