@@ -32,22 +32,6 @@ namespace ConsoleApp1
             favNumbers[2] = 1988;
             Console.WriteLine(favNumbers);
 
-            string[] customersNames = { "Bob", "Sally", "Daniel" };
-            var employees = new[] { "Mike", "Paul", "Rick" };
-            object[] randomObject = { "Paul", 45, 12.12345 };
-
-            Console.WriteLine("random array: {0}", randomObject[0].GetType());
-            Console.WriteLine("random array: {0}", randomObject[1].GetType());
-            Console.WriteLine("random array: {0}", randomObject[2].GetType());
-            Console.WriteLine("random array length: {0}", randomObject.Length);
-
-            Console.WriteLine();
-
-            for (int i = 0; i < customersNames.Length; i++)
-            {
-                Console.WriteLine(i + ": " + customersNames[i]);
-            }
-
             Console.WriteLine();
 
             int[] randomArr = { 1, 12, 2, 44, 20, 1988 };
