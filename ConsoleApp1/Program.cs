@@ -32,11 +32,7 @@ namespace ConsoleApp1
             favNumbers[2] = 1988;
             Console.WriteLine(favNumbers);
 
-            Console.WriteLine();
-
-            int[] randomArr = { 1, 12, 2, 44, 20, 1988 };
-            PrintArray(randomArr, "forEach");
-
+      
           
         }
 
